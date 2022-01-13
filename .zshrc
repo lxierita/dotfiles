@@ -4,8 +4,8 @@ antigen use oh-my-zsh
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Apple M1 only
-export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
-export PUPPETEER_EXECUTABLE_PATH=`which chromium`
+# export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+# export PUPPETEER_EXECUTABLE_PATH=`which chromium`
 
 # Load theme
 antigen theme spaceship-prompt/spaceship-prompt

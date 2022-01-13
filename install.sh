@@ -3,7 +3,7 @@
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/lxierita/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-brew install libevent ncurses tmux node yarn git zsh antigen
+brew install libevent ncurses tmux node yarn git zsh antigen curl libcurl
 
 # Config zsh
 curl -L https://iterm2.com/shell_integration/zsh \

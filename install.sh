@@ -6,7 +6,11 @@ chsh -s /bin/zsh
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-brew install libevent ncurses tmux node yarn zsh curl iterm2
+# Formulae
+brew install libevent ncurses tmux node yarn zsh curl 
+
+# Casks
+brew install iterm2 webstorm goland
 
 # Config zsh
 curl -L https://iterm2.com/shell_integration/zsh \
